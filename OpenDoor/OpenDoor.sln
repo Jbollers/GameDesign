@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenDoor", "Assembly-CSharp.csproj", "{1A664809-8575-EB98-38EE-D32703B2ED3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenDoor", "Assembly-CSharp-firstpass.csproj", "{2D089E5B-E917-F4D5-BED9-EA4AB6F4E0FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenDoor", "Assembly-CSharp-Editor-firstpass.csproj", "{8E9DF375-F1B0-B054-2FAE-96381794D45C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A664809-8575-EB98-38EE-D32703B2ED3B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A664809-8575-EB98-38EE-D32703B2ED3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A664809-8575-EB98-38EE-D32703B2ED3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A664809-8575-EB98-38EE-D32703B2ED3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D089E5B-E917-F4D5-BED9-EA4AB6F4E0FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D089E5B-E917-F4D5-BED9-EA4AB6F4E0FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D089E5B-E917-F4D5-BED9-EA4AB6F4E0FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D089E5B-E917-F4D5-BED9-EA4AB6F4E0FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E9DF375-F1B0-B054-2FAE-96381794D45C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E9DF375-F1B0-B054-2FAE-96381794D45C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E9DF375-F1B0-B054-2FAE-96381794D45C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E9DF375-F1B0-B054-2FAE-96381794D45C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
