@@ -1,0 +1,191 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1977894762130092}
+  m_IsPrefabParent: 1
+--- !u!1 &1977894762130092
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4944678873097306}
+  - component: {fileID: 33092547526208552}
+  - component: {fileID: 23697677305199068}
+  - component: {fileID: 95673501693719462}
+  - component: {fileID: 122132159648414400}
+  - component: {fileID: 114342633599531626}
+  m_Layer: 0
+  m_Name: Good_Book
+  m_TagString: Book
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4944678873097306
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1977894762130092}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 23.03, y: 0.325, z: 19.604357}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
+--- !u!23 &23697677305199068
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1977894762130092}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 29a0deab5e4fdbc49b531339a76dcfc5, type: 2}
+  - {fileID: 2100000, guid: b420116e02064524398dd24867b648a4, type: 2}
+  - {fileID: 2100000, guid: 6ffbf131b80f2874ab51c29b45b6d60a, type: 2}
+  - {fileID: 2100000, guid: 4247b1087fde9bc4e9d7caf1bb89240f, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33092547526208552
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1977894762130092}
+  m_Mesh: {fileID: 4300000, guid: dd090bf5af068bd47abd18e237c593ac, type: 3}
+--- !u!95 &95673501693719462
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1977894762130092}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: dd090bf5af068bd47abd18e237c593ac, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114342633599531626
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1977894762130092}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e325d732fbc0a4fe8abcece44a03ce3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  observeMode:
+  - Normal
+  - Closeup
+  observeInt: 0
+  inGameCamera: {fileID: 0}
+  closeupCamera: {fileID: 0}
+  interactingCollider: {fileID: 0}
+  removeOtherObject: 0
+  restoreOtherObjectToObtain: 0
+  otherObject: {fileID: 0}
+  otherObjName_English: 
+  otherObjName_Italian: 
+  otherObjName_Spanish: 
+  otherObjName_German: 
+  otherObjName_French: 
+  otherObjName_Japanese: 
+  otherObjName_Chinese: 
+  otherObjName_Russian: 
+  otherObjectHasKey: 0
+  otherObjKey: 
+  obtainedObj: {fileID: 0}
+  objName_English: John's Journal
+  objName_Italian: 
+  objName_Spanish: 
+  objName_German: 
+  objName_French: 
+  objName_Japanese: 
+  objName_Chinese: 
+  objName_Russian: 
+  obj_Texture: {fileID: 2800000, guid: ce7cce3bae14dad45bc7c9d9c60151a4, type: 3}
+  deleteIfKey: 0
+  neededKey: 
+  obtainMessage_English: It's John's journal
+  obtainMessage_Italian: 
+  obtainMessage_Spanish: 
+  obtainMessage_German: 
+  obtainMessage_French: 
+  obtainMessage_Japanese: 
+  obtainMessage_Chinese: 
+  obtainMessage_Russian: 
+  canBeObserved: 0
+  observMessage_English: 
+  observMessage_Italian: 
+  observMessage_Spanish: 
+  observMessage_German: 
+  observMessage_French: 
+  observMessage_Japanese: 
+  observMessage_Chinese: 
+  observMessage_Russian: 
+  description_English: 'John would never leave this laying around.
+
+    The last entry say''s:"This party
+
+    is lame and people are starting
+
+    toget sick"'
+  description_Italian: 
+  description_Spanish: 
+  description_German: 
+  description_French: 
+  description_Japanese: 
+  description_Chinese: 
+  description_Russian: 
+  secToOserve: 1.3
+--- !u!122 &122132159648414400
+Halo:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1977894762130092}
+  m_Enabled: 1
+  m_Color:
+    serializedVersion: 2
+    rgba: 4279496703
+  m_Size: 0.07
