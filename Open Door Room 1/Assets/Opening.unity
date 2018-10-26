@@ -194,6 +194,7 @@ MonoBehaviour:
   m_firstOverflowCharacterIndex: -1
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
+  m_isTextTruncated: 0
   m_enableKerning: 1
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
@@ -556,7 +557,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -546882759
+  randomSeed: 666931652
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -4095,7 +4096,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -471713895
+  randomSeed: 1691951924
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -7571,7 +7572,7 @@ ParticleSystem:
   moveWithTransform: 0
   moveWithCustomTransform: {fileID: 0}
   scalingMode: 1
-  randomSeed: -1427187331
+  randomSeed: 446277634
   InitialModule:
     serializedVersion: 3
     enabled: 1
@@ -10942,6 +10943,7 @@ MonoBehaviour:
   m_firstOverflowCharacterIndex: -1
   m_linkedTextComponent: {fileID: 0}
   m_isLinkedTextComponent: 0
+  m_isTextTruncated: 0
   m_enableKerning: 1
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
@@ -11178,6 +11180,7 @@ GameObject:
   - component: {fileID: 2082226091}
   - component: {fileID: 2082226090}
   - component: {fileID: 2082226095}
+  - component: {fileID: 2082226096}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -11336,3 +11339,16 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!114 &2082226096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2082226089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75066b59fc1b01944b79e414c1bce03c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  folder: ScreenshotFolder
+  frameRate: 30

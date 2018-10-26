@@ -14,6 +14,8 @@ TagManager:
   - Book
   - item
   - Door
+  - Hit
+  - enemy
   layers:
   - Default
   - TransparentFX
